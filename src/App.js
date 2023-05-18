@@ -5,7 +5,7 @@ import MovieList from "./components/MovieList";
 import Movie from "./components/Movie";
 import EditMovieForm from "./components/EditMovieForm";
 import MovieHeader from "./components/MovieHeader";
-
+import DeleteMovieModal from "./components/DeleteMovieModal";
 import FavoriteMovieList from "./components/FavoriteMovieList";
 
 import axios from "axios";
