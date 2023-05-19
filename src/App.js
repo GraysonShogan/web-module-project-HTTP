@@ -46,7 +46,10 @@ const App = (props) => {
               element={<EditMovieForm setMovies={setMovies} />}
             />
 
-            <Route path="movies/:id" />
+            <Route
+              path="movies/:id"
+              element={<Movie movies={movies} deleteMovie={deleteMovie} />}
+            />
 
             <Route path="movies" element={<MovieList movies={movies} />} />
 
